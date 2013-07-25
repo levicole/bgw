@@ -1,0 +1,8 @@
+#! /usr/bin/env ruby
+
+require 'vegas'
+require 'bgw'
+
+Vegas::Runner.new(Bgw::App, 'app') do |runner, opts, app|
+  Bgw.repo = ARGV.pop
+end
