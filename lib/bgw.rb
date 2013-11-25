@@ -4,6 +4,8 @@ require 'rugged'
 
 require 'bgw/models/branch'
 require 'bgw/models/branch_list'
+require 'bgw/models/commit'
+require 'bgw/models/commit_list'
 require 'bgw/app'
 
 module Bgw

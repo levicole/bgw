@@ -1,0 +1,87 @@
+html,
+body {
+  height: 100%;
+  /* The html and body elements cannot have any padding or margin. */
+}
+
+body {
+  padding-top: 72px;
+}
+
+/* Wrapper for page content to push down footer */
+#wrap {
+  min-height: 100%;
+  height: auto;
+  /* Negative indent footer by its height */
+  margin: 0 auto -60px;
+  /* Pad bottom by footer height */
+  padding: 0 0 60px;
+}
+
+.app {
+  height: auto;
+  min-height: 100%;
+  margin-top: -52px;
+  padding-top: 52px;
+}
+
+.nav li a {
+  position: relative;
+  display: block;
+  padding: 10px 15px;
+}
+
+.nav li a:hover {
+  text-decoration: none;
+  background-color: #eee;
+}
+
+.full-height {
+  margin-top: -52px;
+  padding-top: 52px;
+  height: auto;
+  min-height: 100%;
+}
+
+.commit-list {
+  overflow-y: scroll;
+  overflow-x: hidden;
+}
+
+table.file {
+  width: 90%;
+  margin-left: 5%;
+  border: 1px solid #eee;
+  border-radius: 4px;
+}
+
+table.table tbody+tbody {
+  border-top: 1px solid #ddd;
+}
+
+.file th {
+  font-size: 12px;
+  border-bottom: 1px ;
+  border-top-left-radius: 4px;
+  border-top-right-radius: 4px;
+}
+
+tr.header {
+  background-color: rgba(238, 238, 238, 0.25);
+}
+
+tr.deletion {
+  background-color: #FFE3E2;
+}
+
+tr.addition {
+  background-color: #D8FFE3;
+}
+
+tr.context {
+  background-color: #fff;
+}
+
+td.gutter {
+  border-right: 1px solid #ccc;
+}
