@@ -1,24 +1,22 @@
-# .
-
-TODO: Write a gem description
+# BGW
+Just a web based git repo project
 
 ## Installation
 
-Add this line to your application's Gemfile:
+This is still very new. But if you want to give it a try you give this a shot:
 
-    gem '.'
-
-And then execute:
-
-    $ bundle
-
-Or install it yourself as:
-
-    $ gem install .
+```
+    git clone git@github.com:levicole/bgw.git
+    cd bgw
+    rake install
+```
 
 ## Usage
 
-TODO: Write usage instructions here
+```
+    cd my/repository
+    bgw .
+```
 
 ## Contributing
 
